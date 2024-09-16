@@ -1,0 +1,885 @@
+2024.09.15 15:47:58 INFO  Started: Metals version 1.3.5 in folders '/Volumes/CrucialSSD/Coding/todo-app' for client Cursor 1.91.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6555bcb9]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@66b5aa43]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6555bcb9]
+2024.09.15 15:47:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.09.15 15:47:59 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+Sep 15, 2024 3:47:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sep 15, 2024 3:47:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.09.15 15:48:14 INFO  running '/usr/local/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.09.15 15:48:14 WARN  no build target for: /Volumes/CrucialSSD/Coding/todo-app/project/metals.sbt[0m
+2024.09.15 15:48:14 WARN  no build target for: /Volumes/CrucialSSD/Coding/todo-app/project/project/metals.sbt[0m
+2024.09.15 15:48:14 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:14 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:14 INFO  copying runtime jar...[0m
+2024.09.15 15:48:20 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:20 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:21 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:22 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.09.15 15:48:22 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:24 INFO  [info] loading settings for project todo-app-build-build-build from metals.sbt ...[0m
+2024.09.15 15:48:24 INFO  [info] loading project definition from /Volumes/CrucialSSD/Coding/todo-app/project/project/project[0m
+2024.09.15 15:48:25 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:25 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:27 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:28 INFO  [info] loading settings for project todo-app-build-build from metals.sbt ...[0m
+2024.09.15 15:48:28 INFO  [info] loading project definition from /Volumes/CrucialSSD/Coding/todo-app/project/project[0m
+2024.09.15 15:48:28 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:28 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.09.15 15:48:33 INFO  [success] Generated .bloop/todo-app-build-build.json[0m
+2024.09.15 15:48:33 INFO  [success] Total time: 4 s, completed Sep 15, 2024, 3:48:33 PM[0m
+2024.09.15 15:48:33 INFO  [info] loading settings for project todo-app-build from metals.sbt,plugins.sbt ...[0m
+2024.09.15 15:48:33 INFO  [info] loading project definition from /Volumes/CrucialSSD/Coding/todo-app/project[0m
+2024.09.15 15:48:37 INFO  [success] Generated .bloop/todo-app-build.json[0m
+2024.09.15 15:48:37 INFO  [success] Total time: 4 s, completed Sep 15, 2024, 3:48:38 PM[0m
+2024.09.15 15:48:39 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.09.15 15:48:39 INFO  [info]   __              __[0m
+2024.09.15 15:48:39 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2024.09.15 15:48:39 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2024.09.15 15:48:39 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2024.09.15 15:48:39 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2024.09.15 15:48:39 INFO  [info]       /_/               /____/[0m
+2024.09.15 15:48:39 INFO  [info] [0m
+2024.09.15 15:48:39 INFO  [info] Version 3.0.5 running Java 17[0m
+2024.09.15 15:48:39 INFO  [info] [0m
+2024.09.15 15:48:39 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2024.09.15 15:48:39 INFO  [info] https://www.playframework.com/sponsors[0m
+2024.09.15 15:48:39 INFO  [info] [0m
+2024.09.15 15:48:45 INFO  [success] Generated .bloop/root.json[0m
+2024.09.15 15:48:45 INFO  [success] Generated .bloop/root-test.json[0m
+2024.09.15 15:48:45 INFO  [success] Total time: 6 s, completed Sep 15, 2024, 3:48:45 PM[0m
+2024.09.15 15:48:46 INFO  time: ran 'sbt bloopInstall' in 31s[0m
+2024.09.15 15:48:46 INFO  Attempting to connect to the build server...[0m
+2024.09.15 15:48:46 INFO  Setting up current java home /Users/eliel/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home in /Users/eliel/.bloop/bloop.json[0m
+2024.09.15 15:48:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.09.15 15:48:58 INFO  Attempting to connect to the build server...[0m
+2024.09.15 15:48:58 INFO  Attempting to connect to the build server...[0m
+2024.09.15 15:48:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/project/project/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.09.15 15:48:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/project/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.09.15 15:49:00 INFO  time: Connected to build server in 14s[0m
+2024.09.15 15:49:00 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.09.15 15:49:00 INFO  time: Imported build in 0.13s[0m
+2024.09.15 15:49:00 INFO  running doctor check[0m
+2024.09.15 15:49:00 INFO  java targets: todo-app-build-build, todo-app-build, root-test, root[0m
+2024.09.15 15:49:10 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.09.15 15:49:30 INFO  time: indexed workspace in 29s[0m
+2024.09.15 15:49:43 INFO  compiling root (7 scala sources and 1 java source)[0m
+2024.09.15 15:49:49 INFO  compiling root-test (1 scala source)[0m
+2024.09.15 15:49:49 INFO  time: compiled root in 6.04s[0m
+2024.09.15 15:49:50 INFO  time: compiled root-test in 1.2s[0m
+Sep 15, 2024 3:52:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+Sep 15, 2024 3:52:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2024.09.15 15:55:23 INFO  compiling root (1 scala source)[0m
+2024.09.15 15:55:23 INFO  time: compiled root in 0.61s[0m
+Sep 15, 2024 3:55:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 148
+Sep 15, 2024 3:55:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+Sep 15, 2024 3:55:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+2024.09.15 15:57:49 INFO  compiling root (1 scala source)[0m
+2024.09.15 15:57:49 INFO  time: compiled root in 0.55s[0m
+2024.09.15 16:00:19 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:00:19 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:00:19 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:00:22 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:00:22 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:00:22 INFO  time: code lens generation in 2.5s[0m
+2024.09.15 16:00:22 INFO  time: code lens generation in 1.47s[0m
+2024.09.15 16:00:23 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+Sep 15, 2024 4:01:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 352
+2024.09.15 16:03:26 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:03:26 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:03:27 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/build.sc. Using presentation compiler with project's scala-library version: 2.13.14[0m
+2024.09.15 16:06:07 INFO  compiling root (1 scala source)[0m
+Sep 15, 2024 4:06:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 805
+2024.09.15 16:06:07 INFO  time: compiled root in 0.6s[0m
+Sep 15, 2024 4:06:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 908
+Sep 15, 2024 4:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1052
+2024.09.15 16:07:12 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:07:12 INFO  time: compiled root in 0.78s[0m
+Sep 15, 2024 4:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1118
+Sep 15, 2024 4:08:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 15, 2024 4:08:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-15/r_compiler-error_(root)_16-08-18-479.md
+Sep 15, 2024 4:08:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 15, 2024 4:08:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-15/r_compiler-error_(root)_16-08-18-605.md
+Sep 15, 2024 4:09:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1497
+2024.09.15 16:11:35 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:11:35 INFO  time: compiled root in 0.81s[0m
+2024.09.15 16:11:55 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:11:55 INFO  time: compiled root in 0.62s[0m
+Sep 15, 2024 4:12:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1626
+Sep 15, 2024 4:13:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1701
+Sep 15, 2024 4:13:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1718
+Sep 15, 2024 4:13:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1768
+2024.09.15 16:14:02 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:14:02 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:14:04 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:14:04 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:14:22 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:14:22 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:16:30 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:16:30 INFO  time: compiled root in 0.16s[0m
+2024.09.15 16:16:44 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:16:44 INFO  time: compiled root in 0.16s[0m
+2024.09.15 16:16:58 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:16:58 INFO  time: compiled root in 0.7s[0m
+2024.09.15 16:17:02 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:17:02 INFO  time: compiled root in 0.67s[0m
+2024.09.15 16:17:16 ERROR /Volumes/CrucialSSD/Coding/todo-app/target/scala-2.13/routes/main/router/Routes.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.09.15 16:17:16 INFO  compiling root (10 scala sources and 1 java source)[0m
+2024.09.15 16:17:16 INFO  time: compiled root in 0.19s[0m
+2024.09.15 16:17:16 INFO  compiling root (10 scala sources and 1 java source)[0m
+2024.09.15 16:17:16 INFO  time: compiled root in 0.22s[0m
+Sep 15, 2024 4:17:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 15, 2024 4:17:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2189
+2024.09.15 16:18:04 ERROR /Volumes/CrucialSSD/Coding/todo-app/target/scala-2.13/routes/main/router/Routes.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.09.15 16:18:13 INFO  compiling root (10 scala sources and 1 java source)[0m
+2024.09.15 16:18:13 INFO  time: compiled root in 0.2s[0m
+Sep 15, 2024 4:18:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.09.15 16:20:27 INFO  compiling root (10 scala sources and 1 java source)[0m
+2024.09.15 16:20:28 INFO  time: compiled root in 1.37s[0m
+Sep 15, 2024 4:20:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2207
+2024.09.15 16:20:37 INFO  compiling root (10 scala sources and 1 java source)[0m
+2024.09.15 16:20:40 INFO  time: compiled root in 2.62s[0m
+2024.09.15 16:24:53 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:24:53 INFO  time: compiled root in 89ms[0m
+2024.09.15 16:24:54 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:25:00 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:25:01 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:27:23 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:27:26 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:27:27 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:27:28 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:27:28 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:28:58 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:28:59 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:28:59 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:29:00 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+Sep 15, 2024 4:29:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2367
+Sep 15, 2024 4:30:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2413
+2024.09.15 16:31:46 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:31:46 INFO  time: compiled root in 0.66s[0m
+2024.09.15 16:32:34 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:32:34 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:32:35 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:32:44 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:32:45 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:32:45 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:32:46 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:32:46 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:32:46 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:32:47 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:00 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:02 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:03 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:03 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:04 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:07 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:09 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:11 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:12 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:33:12 INFO  time: compiled root in 0.15s[0m
+2024.09.15 16:33:13 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:32 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:33 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:33:33 INFO  time: compiled root in 0.13s[0m
+2024.09.15 16:33:33 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:37 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:50 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:50 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:50 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:51 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:51 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:51 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:33:51 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:33:51 INFO  time: compiled root in 0.13s[0m
+2024.09.15 16:33:52 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:14 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:19 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:34:19 INFO  time: compiled root in 0.38s[0m
+2024.09.15 16:34:20 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/services/SayHelloWorldService.scala[0m
+2024.09.15 16:34:37 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:38 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:34:38 INFO  time: compiled root in 0.29s[0m
+2024.09.15 16:34:39 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:39 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:55 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:55 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:56 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:56 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:58 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:34:58 INFO  time: compiled root in 0.27s[0m
+2024.09.15 16:34:59 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:34:59 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:35:02 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:35:02 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:35:04 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:35:04 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:35:04 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/HelloWorldController.scala[0m
+2024.09.15 16:35:04 INFO  time: compiled root in 0.97s[0m
+2024.09.15 16:35:04 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:35:05 INFO  time: compiled root in 0.42s[0m
+2024.09.15 16:35:08 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:35:08 INFO  time: compiled root in 0.14s[0m
+2024.09.15 16:37:17 ERROR /Volumes/CrucialSSD/Coding/todo-app/target/scala-2.13/routes/main/router/Routes.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.09.15 16:37:20 INFO  compiling root (3 scala sources)[0m
+2024.09.15 16:37:20 INFO  time: compiled root in 0.14s[0m
+Sep 15, 2024 4:38:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3119
+2024.09.15 16:38:41 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:38:41 INFO  time: compiled root in 0.69s[0m
+2024.09.15 16:38:41 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:38:41 INFO  time: compiled root in 67ms[0m
+2024.09.15 16:38:56 INFO  compiling root (2 scala sources)[0m
+2024.09.15 16:38:56 INFO  time: compiled root in 0.6s[0m
+2024.09.15 16:40:55 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:40:55 INFO  time: compiled root in 0.49s[0m
+2024.09.15 16:41:11 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:41:11 INFO  time: compiled root in 0.61s[0m
+Sep 15, 2024 4:41:13 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Volumes/CrucialSSD/Coding/todo-app/app/models/Todo.scala
+java.nio.file.NoSuchFileException: /Volumes/CrucialSSD/Coding/todo-app/app/models/Todo.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:281)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:377)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Sep 15, 2024 4:41:13 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Volumes/CrucialSSD/Coding/todo-app/app/models/Todo.scala
+java.nio.file.NoSuchFileException: /Volumes/CrucialSSD/Coding/todo-app/app/models/Todo.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:281)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:377)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.09.15 16:41:15 INFO  compiling root (1 scala source)[0m
+Sep 15, 2024 4:41:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3314
+2024.09.15 16:41:15 INFO  time: compiled root in 0.52s[0m
+2024.09.15 16:41:16 WARN  Using indexes to guess the definition of Todo[0m
+Sep 15, 2024 4:42:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3401
+2024.09.15 16:42:18 INFO  compiling root (1 scala source)[0m
+2024.09.15 16:42:18 INFO  time: compiled root in 73ms[0m
+Sep 15, 2024 5:42:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3495
+Sep 15, 2024 5:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3563
+2024.09.15 18:08:50 INFO  compiling root (1 scala source)[0m
+2024.09.15 18:08:50 INFO  time: compiled root in 0.13s[0m
+2024.09.15 18:08:54 INFO  Shutting down server[0m
+2024.09.15 18:08:54 INFO  shutting down Metals[0m
+2024.09.15 18:08:54 INFO  Shut down connection with build server.[0m
+2024.09.15 18:08:54 INFO  Shut down connection with build server.[0m
+2024.09.15 18:08:54 INFO  Shut down connection with build server.[0m
+2024.09.15 18:08:54 INFO  Exiting server[0m
+2024.09.16 15:09:32 INFO  Started: Metals version 1.3.5 in folders '/Volumes/CrucialSSD/Coding/todo-app' for client Cursor 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@49e50a06]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3fa5804c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@49e50a06]
+2024.09.16 15:09:32 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.16 15:09:33 INFO  Attempting to connect to the build server...
+2024.09.16 15:09:34 INFO  no build target found for /Volumes/CrucialSSD/Coding/todo-app/app/entities/Todo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 16, 2024 3:09:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.09.16 15:09:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.09.16 15:09:38 INFO  Attempting to connect to the build server...
+2024.09.16 15:09:38 INFO  Attempting to connect to the build server...
+2024.09.16 15:09:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/project/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.09.16 15:09:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Volumes/CrucialSSD/Coding/todo-app/project/project/.metals/bsp.trace.json or /Users/eliel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.09.16 15:09:38 INFO  time: Connected to build server in 5.08s
+2024.09.16 15:09:38 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.16 15:09:38 INFO  time: Imported build in 0.15s
+2024.09.16 15:09:38 INFO  running doctor check
+2024.09.16 15:09:38 INFO  java targets: todo-app-build-build, todo-app-build, root-test, root
+2024.09.16 15:09:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.16 15:09:43 INFO  time: indexed workspace in 4.73s
+2024.09.16 15:10:52 INFO  compiling root (12 scala sources and 1 java source)
+2024.09.16 15:10:53 INFO  time: compiled root in 1.21s
+2024.09.16 15:10:53 INFO  compiling root (12 scala sources and 1 java source)
+2024.09.16 15:10:53 INFO  time: compiled root in 0.2s
+Sep 16, 2024 3:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+Sep 16, 2024 3:14:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Sep 16, 2024 3:17:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+Sep 16, 2024 3:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 513
+Sep 16, 2024 3:28:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 686
+Sep 16, 2024 3:28:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 739
+2024.09.16 15:28:35 INFO  compiling root (12 scala sources and 1 java source)
+2024.09.16 15:28:38 INFO  time: compiled root in 3.07s
+Sep 16, 2024 3:28:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloaded https://repo1.maven.org/maven2/org/jline/jline-parent/3.22.0/jline-parent-3.22.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.12.0/metaconfig-typesafe-config_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.4.0/fansi_2.13-0.4.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.12.0/metaconfig-pprint_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.jar
+Downloaded https://repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.3/paiges-core_2.13-0.4.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.11.0/scala-collection-compat_2.13-2.11.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.12.0/metaconfig-core_2.13-0.12.0.jar
+Downloading https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/jline/jline/3.22.0/jline-3.22.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.1/sourcecode_2.13-0.3.1.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.12/scalap-2.13.12.jar
+2024.09.16 15:29:08 INFO  compiling root (12 scala sources and 1 java source)
+2024.09.16 15:29:13 INFO  time: compiled root in 4.78s
+2024.09.16 15:30:19 INFO  compiling root (1 scala source)
+2024.09.16 15:30:20 INFO  time: compiled root in 1.07s
+2024.09.16 15:30:25 INFO  compiling root (1 scala source)
+2024.09.16 15:30:25 INFO  time: compiled root in 0.81s
+2024.09.16 15:31:43 INFO  compiling root (1 scala source)
+2024.09.16 15:31:43 INFO  time: compiled root in 0.57s
+2024.09.16 15:31:49 INFO  compiling root (1 scala source)
+2024.09.16 15:31:49 INFO  time: compiled root in 0.66s
+Sep 16, 2024 3:35:58 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 16, 2024 3:35:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-16/r_compiler-error_(root)_15-35-58-763.md
+Sep 16, 2024 3:35:58 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 16, 2024 3:35:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-16/r_compiler-error_(root)_15-35-58-838.md
+2024.09.16 15:38:58 INFO  compiling root (1 scala source)
+2024.09.16 15:38:58 INFO  time: compiled root in 0.65s
+Sep 16, 2024 3:39:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1306
+2024.09.16 15:40:19 INFO  compiling root (1 scala source)
+2024.09.16 15:40:19 INFO  time: compiled root in 0.42s
+2024.09.16 15:41:20 WARN  Using indexes to guess the definition of content
+2024.09.16 15:41:20 WARN  Using indexes to guess the definition of content
+2024.09.16 15:41:20 ERROR scalafmt: /Volumes/CrucialSSD/Coding/todo-app/app/dtos/TodoDto.scala:4: error: [dialect scala213] ) expected but var found
+  var content: String
+  ^
+2024.09.16 15:41:34 INFO  compiling root (1 scala source)
+2024.09.16 15:41:34 INFO  time: compiled root in 0.53s
+Sep 16, 2024 4:18:38 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Volumes/CrucialSSD/Coding/todo-app/app/models/TodosRepository.scala
+java.nio.file.NoSuchFileException: /Volumes/CrucialSSD/Coding/todo-app/app/models/TodosRepository.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:281)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:377)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Sep 16, 2024 4:18:38 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Volumes/CrucialSSD/Coding/todo-app/app/models/TodosRepository.scala
+java.nio.file.NoSuchFileException: /Volumes/CrucialSSD/Coding/todo-app/app/models/TodosRepository.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:428)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:273)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:284)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:295)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:199)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:199)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:172)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:129)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:281)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:295)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:274)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:155)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:377)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024.09.16 16:21:19 INFO  compiling root (1 scala source)
+2024.09.16 16:21:19 INFO  time: compiled root in 0.82s
+Sep 16, 2024 4:21:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1751
+2024.09.16 16:21:26 INFO  compiling root (1 scala source)
+2024.09.16 16:21:26 INFO  time: compiled root in 0.69s
+2024.09.16 16:21:48 INFO  compiling root (1 scala source)
+2024.09.16 16:21:48 INFO  time: compiled root in 0.53s
+2024.09.16 16:21:58 INFO  compiling root (1 scala source)
+2024.09.16 16:21:58 INFO  time: compiled root in 0.46s
+2024.09.16 16:22:19 INFO  compiling root (1 scala source)
+2024.09.16 16:22:19 INFO  time: compiled root in 0.98s
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala, 124, 124, 138)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala, 124, 124, 138)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala, 124, 124, 131)
+Sep 16, 2024 4:24:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2567
+Sep 16, 2024 4:27:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2767
+2024.09.16 16:27:51 INFO  compiling root (1 scala source)
+2024.09.16 16:27:51 INFO  time: compiled root in 0.12s
+2024.09.16 16:28:11 INFO  compiling root (2 scala sources)
+2024.09.16 16:28:11 INFO  time: compiled root in 0.14s
+2024.09.16 16:28:19 INFO  compiling root (3 scala sources)
+2024.09.16 16:28:19 INFO  time: compiled root in 0.13s
+2024.09.16 16:28:19 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/entities/Todo.scala
+2024.09.16 16:28:31 INFO  compiling root (3 scala sources)
+2024.09.16 16:28:31 INFO  time: compiled root in 0.14s
+2024.09.16 16:28:39 INFO  compiling root (3 scala sources)
+2024.09.16 16:28:39 INFO  time: compiled root in 0.71s
+2024.09.16 16:29:13 INFO  compiling root (3 scala sources)
+2024.09.16 16:29:13 INFO  time: compiled root in 0.66s
+2024.09.16 16:29:19 INFO  compiling root (1 scala source)
+2024.09.16 16:29:19 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:29:19 INFO  time: compiled root in 0.57s
+2024.09.16 16:29:27 INFO  compiling root (1 scala source)
+2024.09.16 16:29:27 INFO  time: compiled root in 0.5s
+Sep 16, 2024 4:29:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3178
+2024.09.16 16:31:49 INFO  compiling root (1 scala source)
+2024.09.16 16:31:49 INFO  time: compiled root in 0.12s
+2024.09.16 16:31:49 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:00 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:01 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:02 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:04 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:05 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:06 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:07 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:11 INFO  compiling root (1 scala source)
+2024.09.16 16:32:11 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/repositories/TodosRepository.scala
+2024.09.16 16:32:11 INFO  time: compiled root in 0.6s
+2024.09.16 16:32:23 INFO  compiling root (1 scala source)
+2024.09.16 16:32:23 INFO  time: compiled root in 0.54s
+2024.09.16 16:33:44 INFO  compiling root (1 scala source)
+2024.09.16 16:33:44 INFO  time: compiled root in 0.74s
+2024.09.16 16:33:54 INFO  compiling root (1 scala source)
+2024.09.16 16:33:54 INFO  time: compiled root in 77ms
+Sep 16, 2024 4:34:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 16, 2024 4:34:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-16/r_compiler-error_(root)_16-34-04-820.md
+Sep 16, 2024 4:34:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 16, 2024 4:34:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Volumes/CrucialSSD/Coding/todo-app/.metals/.reports/metals-full/2024-09-16/r_compiler-error_(root)_16-34-04-934.md
+Sep 16, 2024 4:34:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3808
+Sep 16, 2024 4:35:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3836
+2024.09.16 16:35:13 INFO  compiling root (2 scala sources)
+2024.09.16 16:35:13 INFO  time: compiled root in 0.12s
+2024.09.16 16:35:14 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:35:26 INFO  compiling root (2 scala sources)
+2024.09.16 16:35:26 INFO  time: compiled root in 0.17s
+2024.09.16 16:35:38 ERROR scalafmt: /Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala:9: error: [dialect scala213] illegal start of simple expression
+    Json.toJson([])
+                ^
+2024.09.16 16:35:38 INFO  compiling root (2 scala sources)
+2024.09.16 16:35:38 INFO  time: compiled root in 76ms
+2024.09.16 16:35:42 INFO  compiling root (2 scala sources)
+2024.09.16 16:35:42 INFO  time: compiled root in 0.33s
+2024.09.16 16:36:57 INFO  compiling root (2 scala sources)
+2024.09.16 16:36:57 INFO  time: compiled root in 0.25s
+2024.09.16 16:37:31 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:37:36 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:37:38 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:37:46 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:37:56 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:38:05 INFO  compiling root (2 scala sources)
+2024.09.16 16:38:05 INFO  time: compiled root in 0.26s
+2024.09.16 16:38:08 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/controllers/TodosController.scala
+2024.09.16 16:38:35 INFO  compiling root (2 scala sources)
+2024.09.16 16:38:35 INFO  time: compiled root in 0.14s
+Sep 16, 2024 4:38:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4660
+2024.09.16 16:38:53 INFO  compiling root (2 scala sources)
+2024.09.16 16:38:53 INFO  time: compiled root in 0.14s
+2024.09.16 16:39:17 ERROR scalafmt: /Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala:16: error: [dialect scala213] } expected but end of file found
+
+^
+2024.09.16 16:39:57 WARN  Using indexes to guess the definition of ITodo
+2024.09.16 16:40:19 INFO  compiling root (2 scala sources)
+2024.09.16 16:40:19 INFO  time: compiled root in 0.23s
+2024.09.16 16:40:24 INFO  compiling root (2 scala sources)
+2024.09.16 16:40:24 INFO  time: compiled root in 0.23s
+2024.09.16 16:40:27 INFO  compiling root (2 scala sources)
+2024.09.16 16:40:27 INFO  time: compiled root in 0.21s
+2024.09.16 16:40:30 INFO  compiling root (2 scala sources)
+2024.09.16 16:40:30 INFO  time: compiled root in 0.2s
+2024.09.16 16:47:13 INFO  compiling root (2 scala sources)
+2024.09.16 16:47:13 INFO  time: compiled root in 0.25s
+2024.09.16 16:47:23 INFO  compiling root (2 scala sources)
+2024.09.16 16:47:23 INFO  time: compiled root in 0.17s
+2024.09.16 16:47:32 INFO  compiling root (2 scala sources)
+2024.09.16 16:47:32 INFO  time: compiled root in 0.28s
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 286)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 286)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 279)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 283)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[models.ITodo]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 292, 292, 303)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 286)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 286)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[<error>]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 279)
+something's wrong: no file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala in List[models.ITodo]RangePosition(file:///Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala, 272, 272, 283)
+2024.09.16 16:47:46 INFO  compiling root (2 scala sources)
+2024.09.16 16:47:46 INFO  time: compiled root in 0.22s
+2024.09.16 16:49:20 INFO  compiling root (2 scala sources)
+2024.09.16 16:49:20 INFO  time: compiled root in 0.17s
+2024.09.16 16:52:28 INFO  compiling root (2 scala sources)
+2024.09.16 16:52:28 INFO  time: compiled root in 0.28s
+2024.09.16 16:52:35 INFO  compiling root (2 scala sources)
+2024.09.16 16:52:35 INFO  time: compiled root in 0.2s
+2024.09.16 16:52:37 INFO  compiling root (3 scala sources)
+2024.09.16 16:52:37 INFO  time: compiled root in 0.22s
+2024.09.16 16:52:50 INFO  compiling root (3 scala sources)
+2024.09.16 16:52:51 INFO  time: compiled root in 1.22s
+2024.09.16 17:03:11 INFO  compiling root (3 scala sources and 1 java source)
+2024.09.16 17:03:13 INFO  time: compiled root in 2.89s
+2024.09.16 18:00:42 INFO  compiling root (1 scala source)
+2024.09.16 18:00:42 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala
+2024.09.16 18:00:44 INFO  time: compiled root in 1.65s
+Sep 16, 2024 6:02:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5846
+2024.09.16 18:02:18 INFO  compiling root (1 scala source)
+2024.09.16 18:02:19 INFO  time: compiled root in 1.04s
+2024.09.16 18:02:25 INFO  compiling root (1 scala source)
+2024.09.16 18:02:25 INFO  time: compiled root in 0.33s
+2024.09.16 18:02:37 INFO  compiling root (1 scala source)
+2024.09.16 18:02:39 INFO  time: compiled root in 1.54s
+2024.09.16 18:02:39 INFO  compiling root (1 scala source)
+2024.09.16 18:02:39 INFO  time: compiled root in 0.11s
+2024.09.16 18:02:58 INFO  compiling root (1 scala source)
+2024.09.16 18:02:58 INFO  time: compiled root in 0.56s
+2024.09.16 18:02:58 INFO  compiling root (1 scala source)
+2024.09.16 18:02:58 INFO  time: compiled root in 0.11s
+2024.09.16 18:03:11 INFO  compiling root (3 scala sources)
+2024.09.16 18:03:11 INFO  time: compiled root in 0.16s
+2024.09.16 18:03:22 INFO  compiling root (3 scala sources)
+2024.09.16 18:03:22 INFO  time: compiled root in 0.81s
+2024.09.16 18:03:22 INFO  compiling root (3 scala sources)
+2024.09.16 18:03:22 INFO  time: compiled root in 84ms
+2024.09.16 18:03:25 INFO  compiling root (3 scala sources)
+2024.09.16 18:03:25 INFO  time: compiled root in 0.76s
+2024.09.16 18:03:25 INFO  compiling root (3 scala sources)
+2024.09.16 18:03:25 INFO  time: compiled root in 0.14s
+2024.09.16 18:03:31 INFO  compiling root (4 scala sources)
+2024.09.16 18:03:31 INFO  time: compiled root in 0.31s
+2024.09.16 18:03:47 INFO  compiling root (4 scala sources)
+2024.09.16 18:03:47 INFO  time: compiled root in 0.24s
+2024.09.16 18:03:49 INFO  compiling root (4 scala sources)
+2024.09.16 18:03:49 INFO  time: compiled root in 0.22s
+2024.09.16 18:03:58 INFO  compiling root (4 scala sources)
+2024.09.16 18:03:58 INFO  time: compiled root in 0.23s
+2024.09.16 18:04:04 INFO  compiling root (4 scala sources)
+2024.09.16 18:04:04 INFO  time: compiled root in 0.89s
+2024.09.16 18:04:04 INFO  compiling root (4 scala sources)
+2024.09.16 18:04:06 INFO  time: compiled root in 0.63s
+Sep 16, 2024 6:04:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6331
+2024.09.16 18:04:11 INFO  compiling root (1 scala source)
+2024.09.16 18:04:11 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala
+2024.09.16 18:04:11 INFO  time: compiled root in 0.5s
+2024.09.16 18:04:11 INFO  compiling root (1 scala source)
+2024.09.16 18:04:11 INFO  time: compiled root in 0.3s
+2024.09.16 18:04:16 INFO  compiling root (1 scala source)
+2024.09.16 18:04:16 INFO  time: compiled root in 0.59s
+Sep 16, 2024 6:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6406
+2024.09.16 18:04:28 INFO  compiling root (1 scala source)
+2024.09.16 18:04:28 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/entities/Todo.scala
+2024.09.16 18:04:28 INFO  time: compiled root in 0.7s
+2024.09.16 18:04:28 INFO  compiling root (3 scala sources)
+2024.09.16 18:04:29 INFO  time: compiled root in 0.44s
+2024.09.16 18:05:03 INFO  compiling root (1 scala source)
+2024.09.16 18:05:04 WARN  Could not load snapshot text for /Volumes/CrucialSSD/Coding/todo-app/app/services/ListAllTodosService.scala
+2024.09.16 18:05:03 INFO  time: compiled root in 0.86s
